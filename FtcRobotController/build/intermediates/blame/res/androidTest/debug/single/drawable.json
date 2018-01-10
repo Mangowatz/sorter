@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable/icon_robotcontroller.png",
+        "source": "/Users/Aryeh/.android/build-cache/3f68f6ab975ef2fa2da521f1c01068a5f290051b/output/res/drawable/icon_robotcontroller.png"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable/button_shape.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/drawable/button_shape.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable/black_border.xml",
+        "source": "/Users/Aryeh/.android/build-cache/cc842a63e9ca042d865c292cb1eb371a41beb1a4/output/res/drawable/black_border.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable/feedback_shape_orange.xml",
+        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/drawable/feedback_shape_orange.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable/icon_menu.png",
+        "source": "/Users/Aryeh/.android/build-cache/3f68f6ab975ef2fa2da521f1c01068a5f290051b/output/res/drawable/icon_menu.png"
+    }
+]

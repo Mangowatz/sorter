@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/pushbotsens.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/pushbotsens.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/pushbot.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/pushbot.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/app_settings.xml",
+        "source": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/src/main/res/xml/app_settings.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/advanced_rc_settings.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/advanced_rc_settings.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/src/main/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/k9usbbot.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/squarebot.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/squarebot.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/k9legacybot.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/maxmodules.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/maxmodules.xml"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/debug/xml/rev_scoot.xml",
+        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/xml/rev_scoot.xml"
+    }
+]

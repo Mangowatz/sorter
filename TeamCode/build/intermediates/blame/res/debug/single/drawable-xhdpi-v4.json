@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/bundles/default/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_menu.png",
+        "source": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/bundles/default/res/drawable-xhdpi-v4/icon_menu.png"
+    },
+    {
+        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_robotcontroller.png",
+        "source": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/bundles/default/res/drawable-xhdpi-v4/icon_robotcontroller.png"
+    }
+]
