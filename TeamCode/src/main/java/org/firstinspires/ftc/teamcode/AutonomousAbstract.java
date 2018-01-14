@@ -193,6 +193,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
         auto.move(6.0,0.0,0.7);
 
+        stop();
         /*
         Shouldn't need since lines up perfectly
         closeBlockClaw();

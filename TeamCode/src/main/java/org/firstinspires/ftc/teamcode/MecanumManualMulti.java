@@ -163,7 +163,7 @@ public class MecanumManualMulti extends LinearOpMode {
                     xPressed = true;
                     if(clawClosed) {
                         rightBlockGrabber.setPosition(0.4);
-                        leftBlockGrabber.setPosition(0.3);
+                        leftBlockGrabber.setPosition(0.25);
 
                         clawClosed = false;
                     }
@@ -184,7 +184,7 @@ public class MecanumManualMulti extends LinearOpMode {
 
             if(gamepad2.dpad_up) {
                 //Relic riser up
-                relicRaiserDownWasPressed = false;
+                //relicRaiserDownWasPressed = false;
 
                 if(relicRaiserMax.getState() == true) {
                     relicRaiser.setPower(-1.0);
@@ -197,11 +197,13 @@ public class MecanumManualMulti extends LinearOpMode {
             }
             else if(gamepad2.dpad_down) {
                 //Relic riser down
-                relicRaiserDownWasPressed = true;
+                //relicRaiserDownWasPressed = true;
                 telemetry.addData("Dpad down", gamepad1.dpad_down);
                 relicRaiser.setPower(1.0);
             }
+
             else {
+                /*
                 if(relicRaiserDownWasPressed) {
                     relicRaiser.setPower(-1.0);
                     sleep(100);
@@ -211,8 +213,8 @@ public class MecanumManualMulti extends LinearOpMode {
                 else {
                     relicRaiser.setPower(0.0);
                     relicRaiserDownWasPressed = false;
-                }
-
+                }*/
+                relicRaiser.setPower(0.0);
 
             }
 

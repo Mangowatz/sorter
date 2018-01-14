@@ -15,11 +15,11 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
         auto.move(23,0,movementSpeed);
         //Rotate 180
         auto.move(180,movementSpeed);
-        auto.move(-2.5,0,movementSpeed);
+        auto.move(-1.5,0,movementSpeed);
 
         frontStickServo.setPosition(1.0);
         manual.setSpeedsFromDirection(MotionDirections.E);
-        manual.scaleSpeeds((float)movementSpeed);
+        manual.scaleSpeeds(0.4F);
         manual.updateMotors();
         //wait for button to be pressed
         while(frontStickButton.getState() == true && !isStopRequested());
