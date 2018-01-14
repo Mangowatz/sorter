@@ -476,7 +476,7 @@ public class MecanumManualMulti extends LinearOpMode {
             }
         }
 
-        if(max != robotSpeed) {
+        //if(max != robotSpeed) {
             //scaling must take place
 
 
@@ -488,7 +488,7 @@ public class MecanumManualMulti extends LinearOpMode {
             backLeftPower *= scaler;
             backRightPower *= scaler;
 
-        }
+        //}
 
 
 
@@ -496,10 +496,10 @@ public class MecanumManualMulti extends LinearOpMode {
         //public MotorSpeeds(double frontL, double frontR, double backL, double backR)
 
         speed.setSpeeds(frontLeftPower,frontRightPower,backLeftPower,backRightPower);
-        speed.frontLeft = speed.frontLeft;
-        speed.frontRight = speed.frontRight;
-        speed.backLeft = speed.backLeft;
-        speed.backRight = speed.backRight;
+        //speed.frontLeft = speed.frontLeft;
+        //speed.frontRight = speed.frontRight;
+        //speed.backLeft = speed.backLeft;
+        //speed.backRight = speed.backRight;
         speed.updateMotors();
 
 
@@ -588,10 +588,10 @@ public class MecanumManualMulti extends LinearOpMode {
 
 
         //Motors
-        motorFrontLeft = hardwareMap.dcMotor.get("fl");
-        motorFrontRight = hardwareMap.dcMotor.get("fr");
-        motorBackLeft = hardwareMap.dcMotor.get("bl");
-        motorBackRight = hardwareMap.dcMotor.get("br");
+        motorFrontLeft = hardwareMap.dcMotor.get("br");
+        motorFrontRight = hardwareMap.dcMotor.get("bl");
+        motorBackLeft = hardwareMap.dcMotor.get("fr");
+        motorBackRight = hardwareMap.dcMotor.get("fl");
         blockRaiser = hardwareMap.dcMotor.get("BlR");
         sideStickMotor = hardwareMap.dcMotor.get("SSM");
         relicExtender = hardwareMap.dcMotor.get("RE");
