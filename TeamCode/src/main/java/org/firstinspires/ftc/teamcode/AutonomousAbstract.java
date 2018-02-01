@@ -49,7 +49,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
     protected Color ballColor;
     protected MecanumAutonomus auto;
-    protected MotorSpeeds manual;
+    protected MotorSpeeds2 manual;
 
 
 
@@ -76,7 +76,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
         //Create moving class
         auto = new MecanumAutonomus(motorFrontLeft,motorFrontRight,motorBackLeft,motorBackRight);
-        manual = new MotorSpeeds(motorFrontLeft,motorFrontRight,motorBackLeft,motorBackRight);
+        manual = new MotorSpeeds2(motorFrontLeft,motorFrontRight,motorBackLeft,motorBackRight);
 
 
 
@@ -222,6 +222,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
     protected void raiseSideStick() {
 
         MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.4,380,this);
+        sideStickMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
     }
 
     //Move to be in front of right slot
@@ -310,12 +311,27 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         relicExtender = hardwareMap.dcMotor.get("RE");
         relicRaiser = hardwareMap.dcMotor.get("RR");
 
+        sideStickMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        relicRaiser.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        blockRaiser.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        motorFrontLeft.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        motorFrontRight.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        motorBackLeft.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        motorBackRight.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+
+
         //Others
         myColorSensor = hardwareMap.get(ColorSensor.class, "sence");
         frontStickButton = hardwareMap.get(DigitalChannel.class, "FSB");
         frontStickButton.setMode(DigitalChannel.Mode.INPUT);
         relicRaiserMax = hardwareMap.get(DigitalChannel.class, "RRM");
         relicRaiserMax.setMode(DigitalChannel.Mode.INPUT);
+
+
+        //Set braking
+        sideStickMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        relicRaiser.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+
 
     }
     protected void openBlockClaw() {

@@ -12,10 +12,10 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
     @Override
     void moveToFrontOfGlyphHolder() {
         //Move off platform fowards
-        auto.move(23,0,movementSpeed);
+        auto.move(25,0,movementSpeed);
         //Rotate 180
         auto.move(180,movementSpeed);
-        auto.move(-1.5,0,movementSpeed);
+        auto.move(-0.5,0,movementSpeed);
 
         frontStickServo.setPosition(1.0);
         manual.setSpeedsFromDirection(MotionDirections.E);
@@ -36,12 +36,13 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
     void moveToCorrectSlot() {
         switch (vuMark) {
             case LEFT:
-                auto.move(0.0,slotWidth * 2,movementSpeed);
+                auto.move(0.0,slotWidth + 1.0,movementSpeed);
                 break;
             case CENTER:
-                auto.move(0.0,slotWidth,movementSpeed);
+                auto.move(0.0,slotWidth + 1.0,movementSpeed);
                 break;
             case RIGHT:
+                auto.move(0.0,1.0,movementSpeed);
                 //auto.move(0.0,4.87,0.8);
                 break;
             default:

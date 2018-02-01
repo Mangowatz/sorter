@@ -220,7 +220,7 @@ public class MecanumManualMulti extends LinearOpMode {
 
             if(gamepad2.dpad_right) {
                 //Extend relic
-                relicExtender.setPower(0.5);
+                relicExtender.setPower(0.75);
 
 
 
@@ -261,7 +261,7 @@ public class MecanumManualMulti extends LinearOpMode {
                 sideStickMotor.setPower(-0.1);
             }
             else if(gamepad2.right_trigger > 0.01) {
-                sideStickMotor.setPower(0.2);
+                sideStickMotor.setPower(0.4);
             }
             else {
                 sideStickMotor.setPower(0.0);
@@ -467,19 +467,15 @@ public class MecanumManualMulti extends LinearOpMode {
         double backRightPower = robotSpeed * Math.sin(Math.atan2(xValue,fixedYValue) + Math.PI/4) - changeDirectionSpeed;
 
 
-        double[] array = {frontLeftPower,frontRightPower,backLeftPower,backRightPower};
-        //if none of them are equal to power, get scaler from max to power and scale all by that
-        double max = array[0];
-        for(int i = 1; i < array.length; i++) {
-            if(array[i] > max) {
-                max = array[i];
+        if(gamepad1.dpad_left) {
+            double[] array = {frontLeftPower,frontRightPower,backLeftPower,backRightPower};
+            //if none of them are equal to power, get scaler from max to power and scale all by that
+            double max = array[0];
+            for(int i = 1; i < array.length; i++) {
+                if(array[i] > max) {
+                    max = array[i];
+                }
             }
-        }
-
-        //if(max != robotSpeed) {
-            //scaling must take place
-
-
             System.out.println("Max is " + max);
             double scaler = Math.abs(robotSpeed/max);
 
@@ -487,6 +483,15 @@ public class MecanumManualMulti extends LinearOpMode {
             frontRightPower *= scaler;
             backLeftPower *= scaler;
             backRightPower *= scaler;
+
+        }
+
+
+
+        //if(max != robotSpeed) {
+            //scaling must take place
+
+
 
         //}
 
@@ -603,6 +608,11 @@ public class MecanumManualMulti extends LinearOpMode {
         frontStickButton.setMode(DigitalChannel.Mode.INPUT);
         relicRaiserMax = hardwareMap.get(DigitalChannel.class, "RRM");
         relicRaiserMax.setMode(DigitalChannel.Mode.INPUT);
+
+        sideStickMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        relicRaiser.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        blockRaiser.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+
 
     }
 
