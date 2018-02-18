@@ -12,23 +12,37 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
     @Override
     void moveToFrontOfGlyphHolder() {
         //Move off platform fowards
-        auto.move(25,0,movementSpeed);
+        auto.move(24,0,movementSpeed);
         //Rotate 180
-        auto.move(180,movementSpeed);
-        auto.move(-0.5,0,movementSpeed);
-
         frontStickServo.setPosition(1.0);
+        auto.move(180,movementSpeed);
+
+
+
+        //First move fowards till button click
+
+
+        manual.setSpeedsFromDirection(MotionDirections.S);
+        manual.scaleSpeeds(0.2F);
+        manual.updateMotors();
+        //wait for button to be pressed
+        while(frontFrontStickButton.getState() == true && !isStopRequested());
+        manual.myStop();
+
+        auto.move(1,0,movementSpeed);
+
         manual.setSpeedsFromDirection(MotionDirections.E);
-        manual.scaleSpeeds(0.4F);
+        manual.scaleSpeeds(0.3F);
         manual.updateMotors();
         //wait for button to be pressed
         while(frontStickButton.getState() == true && !isStopRequested());
         manual.myStop();
+
         auto.move(0,-3.0,movementSpeed);
 
         frontStickServo.setPosition(0.25);
         sleep(1000);
-        auto.move(0,2.5,movementSpeed);
+        auto.move(0,3.4,movementSpeed);
 
     }
 
@@ -36,13 +50,13 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
     void moveToCorrectSlot() {
         switch (vuMark) {
             case LEFT:
-                auto.move(0.0,slotWidth + 1.0,movementSpeed);
+                auto.move(0.0,slotWidth * 2,movementSpeed);
                 break;
             case CENTER:
-                auto.move(0.0,slotWidth + 1.0,movementSpeed);
+                auto.move(0.0,slotWidth,movementSpeed);
                 break;
             case RIGHT:
-                auto.move(0.0,1.0,movementSpeed);
+                //auto.move(0.0,1.3,movementSpeed);
                 //auto.move(0.0,4.87,0.8);
                 break;
             default:

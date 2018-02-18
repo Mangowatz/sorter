@@ -18,7 +18,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
 
 public abstract class AutonomousAbstract extends LinearOpMode {
     public final double slotWidth = 7.63;
-    public final double movementSpeed = 0.7;
+    public final double movementSpeed = 0.8;
     protected VuforiaLocalizer vuforia;
     protected VuforiaTrackables relicTrackables;
     protected VuforiaTrackable relicTemplate;
@@ -44,6 +44,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
     protected ColorSensor myColorSensor;
     protected DigitalChannel frontStickButton;
     protected DigitalChannel relicRaiserMax;
+    protected DigitalChannel frontFrontStickButton;
 
 
 
@@ -186,13 +187,14 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         openBlockClaw();
 
         //Move fowards slightly so block is in row
-        auto.move(-6.0,0.0,0.7);
+        auto.move(-6.0,0.0,movementSpeed);
 
         //Put down block
 
 
-        auto.move(6.0,0.0,0.7);
+        auto.move(6.0,0.0,movementSpeed);
 
+        rollBackRelicExtender();
         stop();
         /*
         Shouldn't need since lines up perfectly
@@ -217,11 +219,11 @@ public abstract class AutonomousAbstract extends LinearOpMode {
     }
 
     protected void lowerSideStick() {
-        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.3,-470);
+        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,-440);
     }
     protected void raiseSideStick() {
 
-        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.4,380,this);
+        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.4,390,this);
         sideStickMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
     }
 
@@ -291,7 +293,9 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
         MecanumAutonomus.moveDcMotorEncoded(relicExtender,0.6,-800);
     }
-
+    private void rollBackRelicExtender() {
+        MecanumAutonomus.moveDcMotorEncoded(relicExtender,0.6,800);
+    }
     protected void hardwareSetup() {
         //Servos
         leftBlockGrabber = hardwareMap.servo.get("LBS");
@@ -324,6 +328,8 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         myColorSensor = hardwareMap.get(ColorSensor.class, "sence");
         frontStickButton = hardwareMap.get(DigitalChannel.class, "FSB");
         frontStickButton.setMode(DigitalChannel.Mode.INPUT);
+        frontFrontStickButton = hardwareMap.get(DigitalChannel.class, "FFSB");
+        frontFrontStickButton.setMode(DigitalChannel.Mode.INPUT);
         relicRaiserMax = hardwareMap.get(DigitalChannel.class, "RRM");
         relicRaiserMax.setMode(DigitalChannel.Mode.INPUT);
 

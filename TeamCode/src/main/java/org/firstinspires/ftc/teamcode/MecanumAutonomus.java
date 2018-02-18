@@ -19,9 +19,14 @@ import java.util.Date;
 
 
 public class MecanumAutonomus extends Object {
-    final double ticksPerInchFoward = 2240.0/12.56;
-    final double ticksPerInchSideways = 2240.0/10.5;
-    final double ticksPerDegree = 3200.0/90.0;
+
+    //18 to 24
+    //final double ticksPerInchFoward = (2240.0/12.56) * (3/4);
+    final double ticksPerInchFoward = 120;
+    //final double ticksPerInchSideways = (2240.0/10.5) * (3/4);
+    final double ticksPerInchSideways = 125;
+    //final double ticksPerDegree = (3200.0/90.0) * (3/4);
+    final double ticksPerDegree = 23.9;
 
     double moveX;
     double moveY;
@@ -199,6 +204,7 @@ public class MecanumAutonomus extends Object {
 
         while (motor.isBusy() && !sender.isStopRequested());
         motor.setPower(0.0);
+        motor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
     }
     public static void moveDcMotorEncoded(DcMotor motor, double speed, int steps) {
         motor.setMode(DcMotor.RunMode.RESET_ENCODERS);
@@ -209,6 +215,7 @@ public class MecanumAutonomus extends Object {
 
         while (motor.isBusy());
         motor.setPower(0.0);
+        motor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
     }
     public static void moveDcMotorEncoded(DcMotor motor, double speed, int steps, int timeLimitMili) {
         Calendar end = Calendar.getInstance();
@@ -225,6 +232,7 @@ public class MecanumAutonomus extends Object {
         //time limit
         while (motor.isBusy() && end.after(Calendar.getInstance()));
         motor.setPower(0.0);
+        motor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
     }
 
 

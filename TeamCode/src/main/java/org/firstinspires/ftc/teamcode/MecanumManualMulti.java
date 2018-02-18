@@ -97,6 +97,7 @@ public class MecanumManualMulti extends LinearOpMode {
         //Extend color senser arm slightly to get out of way
         //MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,-100);
         sideStickMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        MecanumAutonomus.moveDcMotorEncoded(relicExtender,0.6,-800);
 
 
 
@@ -258,10 +259,10 @@ public class MecanumManualMulti extends LinearOpMode {
                 leftBumperPressed = false;
             }
             if(gamepad2.left_trigger > 0.01) {
-                sideStickMotor.setPower(-0.1);
+                sideStickMotor.setPower(-0.2 * gamepad2.left_trigger);
             }
             else if(gamepad2.right_trigger > 0.01) {
-                sideStickMotor.setPower(0.4);
+                sideStickMotor.setPower(0.3 * gamepad2.right_trigger);
             }
             else {
                 sideStickMotor.setPower(0.0);

@@ -15,13 +15,24 @@ public class AutonomousBLFromAbs extends AutonomousAbstract {
         //Rotate 180
         //auto.move(180,movementSpeed);
         //auto.move(-2.5,0,movementSpeed);
-        auto.move(0,-3.5,movementSpeed);
-
         frontStickServo.setPosition(1.0);
+        auto.move(0,-2.5,movementSpeed);
 
-        sleep(400);
+
+
+
+
+        manual.setSpeedsFromDirection(MotionDirections.S);
+        manual.scaleSpeeds(0.2F);
+        manual.updateMotors();
+        //wait for button to be pressed
+        while(frontFrontStickButton.getState() == true && !isStopRequested());
+        manual.myStop();
+
+        auto.move(1,0,movementSpeed);
+
         manual.setSpeedsFromDirection(MotionDirections.E);
-        manual.scaleSpeeds(0.4F);
+        manual.scaleSpeeds(0.3F);
         manual.updateMotors();
         //wait for button to be pressed
         while(frontStickButton.getState() == true && !isStopRequested());
