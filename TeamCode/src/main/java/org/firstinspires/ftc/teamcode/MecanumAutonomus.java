@@ -26,7 +26,7 @@ public class MecanumAutonomus extends Object {
     //final double ticksPerInchSideways = (2240.0/10.5) * (3/4);
     final double ticksPerInchSideways = 125;
     //final double ticksPerDegree = (3200.0/90.0) * (3/4);
-    final double ticksPerDegree = 23.9;
+    final double ticksPerDegree = 23.8;
 
     double moveX;
     double moveY;

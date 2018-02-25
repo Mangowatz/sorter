@@ -17,8 +17,9 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
  */
 
 public abstract class AutonomousAbstract extends LinearOpMode {
-    public final double slotWidth = 7.63;
-    public final double movementSpeed = 0.8;
+    //7.63
+    public double slotWidth = 8;
+    public final double movementSpeed = 0.5;
     protected VuforiaLocalizer vuforia;
     protected VuforiaTrackables relicTrackables;
     protected VuforiaTrackable relicTemplate;
@@ -128,7 +129,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
         //moveDcMotorEncoded(relicExtender,0.3,-1800);
         //relicExtender.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        getClearanceFromRelicExtender();
+        //getClearanceFromRelicExtender();
 
 
         MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.9,-600);
@@ -179,7 +180,8 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         moveToCorrectSlot();
 
         //Lower block raiser
-        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.8,600,this);
+        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.8,1000,this);
+
 
         //blockRaiser.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
@@ -194,7 +196,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
         auto.move(6.0,0.0,movementSpeed);
 
-        rollBackRelicExtender();
+        //rollBackRelicExtender();
         stop();
         /*
         Shouldn't need since lines up perfectly
@@ -219,11 +221,12 @@ public abstract class AutonomousAbstract extends LinearOpMode {
     }
 
     protected void lowerSideStick() {
-        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,-440);
+        //MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,-440);
+        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,-500,1000);
     }
     protected void raiseSideStick() {
 
-        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.4,390,this);
+        MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,390,this);
         sideStickMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
     }
 
@@ -360,20 +363,20 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
 
 
-            auto.move(-20,0.3);
+            auto.move(-20,0.2);
 
 
             raiseSideStick();
-            auto.move(20,0.3);
+            auto.move(20,0.2);
 
         }
         else {
             //Move towards this ball ie right
-            auto.move(20,0.3);
+            auto.move(20,0.2);
 
             raiseSideStick();
 
-            auto.move(-20,0.3);
+            auto.move(-20,0.2);
 
         }
     }

@@ -56,6 +56,8 @@ public class MecanumManualMulti extends LinearOpMode {
     private boolean angleMetalDown = false;
     private boolean righBumperPressed = false;
     private boolean relicRaiserDownWasPressed = false;
+    private boolean frontStickServoDown = false;
+    private boolean rightBumperPressed = false;
     MotorSpeeds speed;
 
 
@@ -285,6 +287,20 @@ public class MecanumManualMulti extends LinearOpMode {
             }
             else {
                 righBumperPressed = false;
+            }
+            if(gamepad2.right_bumper) {
+                if(!rightBumperPressed) {
+                    righBumperPressed = true;
+                    frontStickServo.setPosition(frontStickServoDown ? 0.25 : 1.0);
+                    frontStickServoDown = !frontStickServoDown;
+
+                }
+
+
+            }
+            else {
+                rightBumperPressed = false;
+
             }
 
             telemetry.addData("FL: ", motorFrontLeft.getPower());

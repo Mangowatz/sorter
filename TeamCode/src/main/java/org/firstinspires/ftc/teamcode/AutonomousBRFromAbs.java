@@ -49,10 +49,10 @@ public class AutonomousBRFromAbs extends AutonomousAbstract {
     void moveToCorrectSlot() {
         switch (vuMark) {
             case LEFT:
-                auto.move(0,1,movementSpeed);
+                auto.move(0,0.6,movementSpeed);
                 break;
             case CENTER:
-                auto.move(0.0,-(slotWidth),movementSpeed);
+                auto.move(0.0,-(slotWidth - 0.5),movementSpeed);
                 break;
             case RIGHT:
                 //auto.move(0.0,4.87,0.8);

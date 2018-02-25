@@ -8,6 +8,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 @Autonomous(name="Abstract:AutoRR", group="Autonomus")
 public class AutonomousRRFromAbs extends AutonomousAbstract {
 
+    public double slotWidth = 8;
 
     @Override
     void moveToFrontOfGlyphHolder() {
@@ -42,7 +43,7 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
 
         frontStickServo.setPosition(0.25);
         sleep(1000);
-        auto.move(0,3.4,movementSpeed);
+        auto.move(0,2.3,movementSpeed);
 
     }
 
@@ -50,7 +51,7 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
     void moveToCorrectSlot() {
         switch (vuMark) {
             case LEFT:
-                auto.move(0.0,slotWidth * 2,movementSpeed);
+                auto.move(0.0,slotWidth * 2 + 1,movementSpeed);
                 break;
             case CENTER:
                 auto.move(0.0,slotWidth,movementSpeed);

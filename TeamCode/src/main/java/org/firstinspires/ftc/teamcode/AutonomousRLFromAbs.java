@@ -43,7 +43,7 @@ public class AutonomousRLFromAbs extends AutonomousAbstract {
 
         frontStickServo.setPosition(0.25);
         sleep(1000);
-        auto.move(0,3.5,movementSpeed);
+        auto.move(0,2.3,movementSpeed);
 
     }
 
@@ -51,7 +51,7 @@ public class AutonomousRLFromAbs extends AutonomousAbstract {
     void moveToCorrectSlot() {
         switch (vuMark) {
             case LEFT:
-                auto.move(0.0,slotWidth * 2,movementSpeed);
+                auto.move(0.0,slotWidth * 2 + 0.5,movementSpeed);
                 break;
             case CENTER:
                 auto.move(0.0,slotWidth,movementSpeed);
