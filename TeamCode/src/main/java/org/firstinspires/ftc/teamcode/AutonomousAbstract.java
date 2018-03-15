@@ -19,7 +19,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
 public abstract class AutonomousAbstract extends LinearOpMode {
     //7.63
     public double slotWidth = 8;
-    public final double movementSpeed = 0.5;
+    public final double movementSpeed = 0.8;
     protected VuforiaLocalizer vuforia;
     protected VuforiaTrackables relicTrackables;
     protected VuforiaTrackable relicTemplate;
@@ -83,13 +83,16 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
 
         //To get out of the way for lowering
+
+        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.7,-100);
+
         openBlockClaw();
         sleep(200);
 
 
 
         //lower grabber slightly
-        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.7,400);
+        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.7,1800);
 
 
         //Close two servos around block
@@ -186,7 +189,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         //blockRaiser.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
 
-        openBlockClaw();
+        openBlockClawFully();
 
         //Move fowards slightly so block is in row
         auto.move(-6.0,0.0,movementSpeed);
@@ -301,8 +304,8 @@ public abstract class AutonomousAbstract extends LinearOpMode {
     }
     protected void hardwareSetup() {
         //Servos
-        leftBlockGrabber = hardwareMap.servo.get("LBS");
-        rightBlockGrabber = hardwareMap.servo.get("RBS");
+        leftBlockGrabber = hardwareMap.servo.get("RBS");
+        rightBlockGrabber = hardwareMap.servo.get("LBS");
         frontAngleServo = hardwareMap.servo.get("FAS");
         relicGrabberServo = hardwareMap.servo.get("ReGS");
         frontStickServo = hardwareMap.servo.get("FSS");
@@ -345,13 +348,16 @@ public abstract class AutonomousAbstract extends LinearOpMode {
     }
     protected void openBlockClaw() {
         //Put servos in closed position
-        rightBlockGrabber.setPosition(0.3);
-        leftBlockGrabber.setPosition(0.2);
+        rightBlockGrabber.setPosition(0.7);
+        leftBlockGrabber.setPosition(0.6);
+    }
+    protected void openBlockClawFully() {
+        rightBlockGrabber.setPosition(0.5);
+        leftBlockGrabber.setPosition(0.8);
     }
     protected void closeBlockClaw() {
-        rightBlockGrabber.setPosition(0.6);
-        leftBlockGrabber.setPosition(0.0);
-
+        rightBlockGrabber.setPosition(1.0);
+        leftBlockGrabber.setPosition(0.4);
     }
 
 

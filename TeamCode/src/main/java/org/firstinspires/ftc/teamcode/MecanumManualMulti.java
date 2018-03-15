@@ -30,6 +30,8 @@ public class MecanumManualMulti extends LinearOpMode {
     protected Servo frontAngleServo;
     protected Servo relicGrabberServo;
     protected Servo frontStickServo;
+    protected Servo frontBlockRotater;
+    protected Servo blockHolder;
 
     //protected Servo sideStick;
     protected DcMotor motorFrontLeft;
@@ -54,10 +56,12 @@ public class MecanumManualMulti extends LinearOpMode {
     private boolean leftBumperPressed = false;
     private boolean rightStickPressed = false;
     private boolean angleMetalDown = false;
-    private boolean righBumperPressed = false;
+    private boolean rightBumperPressed = false;
     private boolean relicRaiserDownWasPressed = false;
     private boolean frontStickServoDown = false;
-    private boolean rightBumperPressed = false;
+    private boolean oneLeftBumperPressed = false;
+    private boolean twoRightBumperPressed = false;
+    private boolean frontBlockStick = false;
     MotorSpeeds speed;
 
 
@@ -86,15 +90,16 @@ public class MecanumManualMulti extends LinearOpMode {
 
 
 
+
+
+
+        waitForStart();
+        //start
         //Move angle thing up initially
         frontAngleServo.setPosition(0.2);
 
         //Make sure relic grabber is closed
         relicGrabberServo.setPosition(0.0);
-
-
-        waitForStart();
-        //start
 
         //Extend color senser arm slightly to get out of way
         //MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,-100);
@@ -165,14 +170,16 @@ public class MecanumManualMulti extends LinearOpMode {
                 if(!xPressed) {
                     xPressed = true;
                     if(clawClosed) {
-                        rightBlockGrabber.setPosition(0.4);
-                        leftBlockGrabber.setPosition(0.25);
+                        rightBlockGrabber.setPosition(0.85);
+                        leftBlockGrabber.setPosition(0.55);
+                        blockHolder.setPosition(0.5);
 
                         clawClosed = false;
                     }
                     else {
-                        rightBlockGrabber.setPosition(0.6);
-                        leftBlockGrabber.setPosition(0.0);
+                        rightBlockGrabber.setPosition(1.0);
+                        leftBlockGrabber.setPosition(0.4);
+                        blockHolder.setPosition(0.08);
                         clawClosed = true;
                     }
                 }
@@ -271,8 +278,8 @@ public class MecanumManualMulti extends LinearOpMode {
             }
 
             if(gamepad1.right_bumper) {
-                if(!righBumperPressed) {
-                    righBumperPressed = true;
+                if(!rightBumperPressed) {
+                    rightBumperPressed = true;
 
                     if (angleMetalDown) {
                         frontAngleServo.setPosition(0.2);
@@ -286,22 +293,36 @@ public class MecanumManualMulti extends LinearOpMode {
                 }
             }
             else {
-                righBumperPressed = false;
+                rightBumperPressed = false;
             }
-            if(gamepad2.right_bumper) {
-                if(!rightBumperPressed) {
-                    righBumperPressed = true;
+            if(gamepad1.left_bumper) {
+                if(!oneLeftBumperPressed) {
+                    oneLeftBumperPressed = true;
                     frontStickServo.setPosition(frontStickServoDown ? 0.25 : 1.0);
                     frontStickServoDown = !frontStickServoDown;
 
                 }
 
-
             }
             else {
-                rightBumperPressed = false;
+                oneLeftBumperPressed = false;
 
             }
+
+
+            if(gamepad2.right_bumper) {
+                if(!twoRightBumperPressed) {
+                    twoRightBumperPressed = true;
+                    frontBlockRotater.setPosition(frontBlockStick ? 0.5: 1.0);
+                    frontBlockStick = !frontBlockStick;
+                }
+            }
+            else {
+                twoRightBumperPressed = false;
+            }
+
+
+
 
             telemetry.addData("FL: ", motorFrontLeft.getPower());
             telemetry.addData("FR: ", motorFrontRight.getPower());
@@ -459,12 +480,8 @@ public class MecanumManualMulti extends LinearOpMode {
             xValue *= -1;
             fixedYValue *= -1;
         }
-
-
         double rightRotation = gamepad1.right_trigger;
         double leftRotation = gamepad1.left_trigger;
-
-
         double robotSpeed = Math.sqrt(Math.pow(fixedYValue,2) + Math.pow(xValue,2));
         double changeDirectionSpeed = 0;
 
@@ -474,9 +491,6 @@ public class MecanumManualMulti extends LinearOpMode {
         else {
             changeDirectionSpeed = -leftRotation;
         }
-
-
-
 
         double frontLeftPower = robotSpeed * Math.sin(Math.atan2(xValue,fixedYValue) + Math.PI/4) + changeDirectionSpeed;
         double frontRightPower = robotSpeed * Math.cos(Math.atan2(xValue,fixedYValue) + Math.PI/4) - changeDirectionSpeed;
@@ -503,25 +517,7 @@ public class MecanumManualMulti extends LinearOpMode {
 
         }
 
-
-
-        //if(max != robotSpeed) {
-            //scaling must take place
-
-
-
-        //}
-
-
-
-
-        //public MotorSpeeds(double frontL, double frontR, double backL, double backR)
-
         speed.setSpeeds(frontLeftPower,frontRightPower,backLeftPower,backRightPower);
-        //speed.frontLeft = speed.frontLeft;
-        //speed.frontRight = speed.frontRight;
-        //speed.backLeft = speed.backLeft;
-        //speed.backRight = speed.backRight;
         speed.updateMotors();
 
 
@@ -602,11 +598,13 @@ public class MecanumManualMulti extends LinearOpMode {
 
     protected void hardwareSetup() {
         //Servos
-        leftBlockGrabber = hardwareMap.servo.get("LBS");
-        rightBlockGrabber = hardwareMap.servo.get("RBS");
+        leftBlockGrabber = hardwareMap.servo.get("RBS");
+        rightBlockGrabber = hardwareMap.servo.get("LBS");
         frontAngleServo = hardwareMap.servo.get("FAS");
         relicGrabberServo = hardwareMap.servo.get("ReGS");
         frontStickServo = hardwareMap.servo.get("FSS");
+        frontBlockRotater = hardwareMap.servo.get("FBR");
+        blockHolder = hardwareMap.servo.get("BH");
 
 
         //Motors

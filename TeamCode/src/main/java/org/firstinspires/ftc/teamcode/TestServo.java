@@ -62,16 +62,24 @@ public class TestServo extends LinearOpMode {
 
         waitForStart();
 
+        leftBlockGrabber.setPosition(0.4);
+        rightBlockGrabber.setPosition(0.03);
 
-        auto = new MecanumAutonomus(motorFrontLeft,motorFrontRight,motorBackLeft,motorBackRight);
-        auto.move(25,0,0.3);
+        //auto = new MecanumAutonomus(motorFrontLeft,motorFrontRight,motorBackLeft,motorBackRight);
+        //auto.move(25,0,0.3);
+        while(opModeIsActive())
+        {
+            telemetry.addData("Left block servo", leftBlockGrabber.getPosition());
+            telemetry.addData("Right block servo", rightBlockGrabber.getPosition());
+            telemetry.update();
+        }
 
     }
 
     protected void hardwareSetup() {
         //Servos
-        leftBlockGrabber = hardwareMap.servo.get("LBS");
-        rightBlockGrabber = hardwareMap.servo.get("RBS");
+        leftBlockGrabber = hardwareMap.servo.get("RBS");
+        rightBlockGrabber = hardwareMap.servo.get("LBS");
         frontAngleServo = hardwareMap.servo.get("FAS");
         relicGrabberServo = hardwareMap.servo.get("ReGS");
         frontStickServo = hardwareMap.servo.get("FSS");
