@@ -13,7 +13,7 @@ public class AutonomousRLFromAbs extends AutonomousAbstract {
     void moveToFrontOfGlyphHolder() {
         //Move off platform fowards
         //Move off platform fowards
-        auto.move(25,0,movementSpeed);
+        auto.move(25,0,0.4);
         //Rotate 180
         frontStickServo.setPosition(1.0);
         auto.move(90,movementSpeed);
