@@ -11,7 +11,7 @@ public class AutonomousBLFromAbs extends AutonomousAbstract {
     @Override
     void moveToFrontOfGlyphHolder() {
         //Move off platform fowards
-        auto.move(-24,0,0.4);
+        auto.move(-24,0,movementSpeed);
         //Rotate 180
         //auto.move(180,movementSpeed);
         //auto.move(-2.5,0,movementSpeed);

@@ -30,7 +30,6 @@ public abstract class AutonomousAbstract extends LinearOpMode {
     protected Servo frontStickServo;
     protected Servo frontAngleServo;
     protected Servo relicGrabberServo;
-    protected Servo blockPusher;
     //protected Servo frontStickServo;
 
     //protected Servo sideStick;
@@ -66,7 +65,6 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
         //Setup Hardware
         hardwareSetup();
-        blockPusher.setPosition(0.0);
 
 
         //init recovery mark
@@ -108,7 +106,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         //2240
         //Only pickup 400 here rest after
 
-        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.7,-800);
+        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.7,-400);
 
         lookForVuMark(30);
 
@@ -137,7 +135,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         //getClearanceFromRelicExtender();
 
 
-        //MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.9,-400);
+        MecanumAutonomus.moveDcMotorEncoded(blockRaiser,0.9,-600);
 
 
         //blockRaiser.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
@@ -311,7 +309,6 @@ public abstract class AutonomousAbstract extends LinearOpMode {
         frontAngleServo = hardwareMap.servo.get("FAS");
         relicGrabberServo = hardwareMap.servo.get("ReGS");
         frontStickServo = hardwareMap.servo.get("FSS");
-        blockPusher = hardwareMap.servo.get("BLOCKPUSH");
 
 
         //Motors

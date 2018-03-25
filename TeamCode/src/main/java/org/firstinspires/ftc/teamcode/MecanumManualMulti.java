@@ -30,9 +30,8 @@ public class MecanumManualMulti extends LinearOpMode {
     protected Servo frontAngleServo;
     protected Servo relicGrabberServo;
     protected Servo frontStickServo;
-    //protected Servo frontBlockRotater;
+    protected Servo frontBlockRotater;
     protected Servo blockHolder;
-    protected Servo blockPusher;
 
     //protected Servo sideStick;
     protected DcMotor motorFrontLeft;
@@ -62,7 +61,7 @@ public class MecanumManualMulti extends LinearOpMode {
     private boolean frontStickServoDown = false;
     private boolean oneLeftBumperPressed = false;
     private boolean twoRightBumperPressed = false;
-    private boolean blockPusherOut = true;
+    private boolean frontBlockStick = false;
     MotorSpeeds speed;
 
 
@@ -105,7 +104,7 @@ public class MecanumManualMulti extends LinearOpMode {
         //Extend color senser arm slightly to get out of way
         //MecanumAutonomus.moveDcMotorEncoded(sideStickMotor,0.2,-100);
         sideStickMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        MecanumAutonomus.moveDcMotorEncoded(relicExtender,0.6,-1000);
+        MecanumAutonomus.moveDcMotorEncoded(relicExtender,0.6,-800);
 
 
 
@@ -179,12 +178,8 @@ public class MecanumManualMulti extends LinearOpMode {
                     }
                     else {
                         rightBlockGrabber.setPosition(1.0);
-
                         leftBlockGrabber.setPosition(0.4);
-                        if(blockPusherOut) {
-                            blockHolder.setPosition(0.00);
-                        }
-
+                        blockHolder.setPosition(0.08);
                         clawClosed = true;
                     }
                 }
@@ -317,14 +312,9 @@ public class MecanumManualMulti extends LinearOpMode {
 
             if(gamepad2.right_bumper) {
                 if(!twoRightBumperPressed) {
-
-
-                    blockHolder.setPosition(0.5);
                     twoRightBumperPressed = true;
-                    blockPusher.setPosition(blockPusherOut ? 1.0: 0.4);
-                    blockPusherOut = !blockPusherOut;
-
-                    //frontBlockStick = !frontBlockStick;
+                    frontBlockRotater.setPosition(frontBlockStick ? 0.5: 1.0);
+                    frontBlockStick = !frontBlockStick;
                 }
             }
             else {
@@ -613,9 +603,8 @@ public class MecanumManualMulti extends LinearOpMode {
         frontAngleServo = hardwareMap.servo.get("FAS");
         relicGrabberServo = hardwareMap.servo.get("ReGS");
         frontStickServo = hardwareMap.servo.get("FSS");
-        //frontBlockRotater = hardwareMap.servo.get("FBR");
+        frontBlockRotater = hardwareMap.servo.get("FBR");
         blockHolder = hardwareMap.servo.get("BH");
-        blockPusher = hardwareMap.servo.get("BLOCKPUSH");
 
 
         //Motors

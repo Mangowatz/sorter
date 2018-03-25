@@ -15,7 +15,7 @@ public class AutonomousRRFromAbs extends AutonomousAbstract {
         //Move off platform fowards
         //Auto controls the mecanum motors
         //move fowards 24 inches
-        auto.move(24,0,0.4);
+        auto.move(24,0,movementSpeed);
         //Lower front stick servo
         frontStickServo.setPosition(1.0);
 
