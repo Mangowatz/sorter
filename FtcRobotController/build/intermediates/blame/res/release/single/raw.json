@@ -1,46 +1,58 @@
 [
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/texture_vertex_shader.glsl",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/raw/texture_vertex_shader.glsl"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/color_fragment_shader.glsl",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/raw/color_fragment_shader.glsl"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/warningmessage.wav",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/raw/warningmessage.wav"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/warningmessage.wav",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/raw/warningmessage.wav"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/chimedisconnect.wav",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/raw/chimedisconnect.wav"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/gold.wav",
+        "source": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/src/main/res/raw/gold.wav"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/texture_fragment_shader.glsl",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/raw/texture_fragment_shader.glsl"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/simple_vertex_shader.glsl",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/raw/simple_vertex_shader.glsl"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/chimeconnect.wav",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/raw/chimeconnect.wav"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/cube_mesh_vertex_shader.glsl",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/raw/cube_mesh_vertex_shader.glsl"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/cube_mesh_vertex_shader.glsl",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/raw/cube_mesh_vertex_shader.glsl"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/errormessage.wav",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/raw/errormessage.wav"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/cube_mesh_fragment_shader.glsl",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/raw/cube_mesh_fragment_shader.glsl"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/nxtstartupsound.wav",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/raw/nxtstartupsound.wav"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/simple_vertex_shader.glsl",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/raw/simple_vertex_shader.glsl"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/chimedisconnect.wav",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/raw/chimedisconnect.wav"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/nxtstartupsound.wav",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/raw/nxtstartupsound.wav"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/texture_fragment_shader.glsl",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/raw/texture_fragment_shader.glsl"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/color_fragment_shader.glsl",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/raw/color_fragment_shader.glsl"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/cube_mesh_fragment_shader.glsl",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/raw/cube_mesh_fragment_shader.glsl"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/raw/errormessage.wav",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/raw/errormessage.wav"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/texture_vertex_shader.glsl",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/raw/texture_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/format_convert.bc",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/raw/format_convert.bc"
+    },
+    {
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/silver.wav",
+        "source": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/src/main/res/raw/silver.wav"
+    },
+    {
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/raw/chimeconnect.wav",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/raw/chimeconnect.wav"
     }
 ]

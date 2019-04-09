@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/menu/menu_server.xml",
-        "source": "/Users/Aryeh/.android/build-cache/cc842a63e9ca042d865c292cb1eb371a41beb1a4/output/res/menu/menu_server.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/menu/main_menu.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/3c3e819a45a4dff257b4650dcd859c9a/res/menu/main_menu.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/menu/main_menu.xml",
-        "source": "/Users/Aryeh/.android/build-cache/3f68f6ab975ef2fa2da521f1c01068a5f290051b/output/res/menu/main_menu.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/menu/menu_server.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/321a2c055411d919c65aa51a64c5f3ec/res/menu/menu_server.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/menu/ftc_robot_controller.xml",
-        "source": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/src/main/res/menu/ftc_robot_controller.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/menu/ftc_robot_controller.xml",
+        "source": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/src/main/res/menu/ftc_robot_controller.xml"
     }
 ]

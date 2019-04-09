@@ -27,7 +27,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
 
 
 @Autonomous(name="AutoRR2", group="Autonomus")
-@Disabled
+@Disable
 public class AutoRR extends LinearOpMode {
 
 

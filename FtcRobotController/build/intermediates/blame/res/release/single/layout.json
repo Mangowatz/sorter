@@ -1,226 +1,230 @@
 [
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/servo_list.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/servo_list.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_lynx_fw_update.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_ftc_lynx_fw_update.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_wifi_remembered_groups.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_ftc_wifi_remembered_groups.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_view_logs.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_view_logs.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/file_info.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/file_info.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_wifi_remembered_groups.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_ftc_wifi_remembered_groups.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/analog_inputs.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/analog_inputs.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/feedback.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/layout/feedback.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/motor_list.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/motor_list.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_program_and_manage.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_program_and_manage.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_inspection.xml",
-        "source": "/Users/Aryeh/.android/build-cache/3f68f6ab975ef2fa2da521f1c01068a5f290051b/output/res/layout/activity_inspection.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/i2c_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/i2c_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/analog_output_device.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/analog_output_device.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/button_list.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/button_list.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_blocks.xml",
-        "source": "/Users/Aryeh/.android/build-cache/cc842a63e9ca042d865c292cb1eb371a41beb1a4/output/res/layout/activity_blocks.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/file_info.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/file_info.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_usb_device.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/lynx_usb_device.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/matrices.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/matrices.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_module_configure_address_spin_item.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/lynx_module_configure_address_spin_item.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/servo.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/servo.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/analog_outputs.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/analog_outputs.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/servo_list.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/servo_list.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_program_and_manage.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_program_and_manage.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_config_wifi_direct.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_config_wifi_direct.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_module_configure_address.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/lynx_module_configure_address.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/loading_indicator_overlay.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/layout/loading_indicator_overlay.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/analog_input_device.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/analog_input_device.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/servo_controller_banner.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/servo_controller_banner.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_lynx_address_update.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_ftc_lynx_address_update.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/port_attached_row.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/port_attached_row.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/gray_line.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/gray_line.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/motor_controller_banner.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/motor_controller_banner.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_lynx_fw_update.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_ftc_lynx_fw_update.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/banner_parent.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/banner_parent.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/matrix_devices.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/matrix_devices.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_programming_mode.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/321a2c055411d919c65aa51a64c5f3ec/res/layout/activity_programming_mode.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/i2cs.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/i2cs.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/i2cs.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/i2cs.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/info_button.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/info_button.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/pwms.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/pwms.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/motor.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/motor.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/legacy.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/legacy.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/servo_controller_banner.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/servo_controller_banner.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/motor_list.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/motor_list.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/digital_device.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/digital_device.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_configure_from_template.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_configure_from_template.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_view_logs.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_view_logs.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/analog_inputs.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/analog_inputs.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/digital_device_lynx.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/digital_device_lynx.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_blocks.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/321a2c055411d919c65aa51a64c5f3ec/res/layout/activity_blocks.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/item_list_parent.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/item_list_parent.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_module_configure_address.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/lynx_module_configure_address.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_config_wifi_direct.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_config_wifi_direct.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/analog_outputs.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/analog_outputs.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_wifi_channel_selector.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_ftc_wifi_channel_selector.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/matrix_devices.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/matrix_devices.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/digital_devices.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/digital_devices.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/motor.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/motor.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/loading_indicator_overlay.xml",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/layout/loading_indicator_overlay.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/red_line.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/red_line.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/port_attached_row.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/port_attached_row.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_usb_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/lynx_usb_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/matrices.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/matrices.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/info_button.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/info_button.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/device_interface_module.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/device_interface_module.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_wifi_channel_selector.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_ftc_wifi_channel_selector.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_configuration.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_ftc_configuration.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_controller.xml",
+        "source": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/src/main/res/layout/activity_ftc_controller.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_generic_settings.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_generic_settings.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/digital_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/digital_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/feedback.xml",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/layout/feedback.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/digital_device_lynx.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/digital_device_lynx.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/servo.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/servo.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/simple_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/simple_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_programming_mode.xml",
-        "source": "/Users/Aryeh/.android/build-cache/cc842a63e9ca042d865c292cb1eb371a41beb1a4/output/res/layout/activity_programming_mode.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/webcam_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/webcam_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_controller.xml",
-        "source": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/src/main/res/layout/activity_ftc_controller.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_configuration.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_ftc_configuration.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_swap_usb_devices.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_swap_usb_devices.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/header.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/header.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_about.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_about.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/pwm_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/pwm_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/banner_parent.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/banner_parent.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_ftc_lynx_address_update.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_ftc_lynx_address_update.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/button_list.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/button_list.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_load.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_load.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/red_line.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/red_line.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/analog_input_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/analog_input_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/pwm_device.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/pwm_device.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_swap_usb_devices.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_swap_usb_devices.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_module.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/lynx_module.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/color_list_preference_line_item.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/layout/color_list_preference_line_item.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/i2c_device.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/i2c_device.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/device_interface_module.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/device_interface_module.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/header.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/header.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/item_list_parent.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/item_list_parent.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/simple_device.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/simple_device.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_inspection.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/3c3e819a45a4dff257b4650dcd859c9a/res/layout/activity_inspection.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_configure_from_template.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_configure_from_template.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/template_info.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/template_info.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/motor_controller_banner.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/motor_controller_banner.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_module.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/lynx_module.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/color_list_preference_line_item.xml",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/layout/color_list_preference_line_item.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/gray_line.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/gray_line.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/pwms.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/pwms.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/lynx_module_configure_address_spin_item.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/lynx_module_configure_address_spin_item.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/template_info.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/template_info.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/activity_generic_settings.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/activity_generic_settings.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/activity_load.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/activity_load.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/analog_output_device.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/analog_output_device.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/layout/legacy.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/layout/legacy.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/digital_devices.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/layout/digital_devices.xml"
+    },
+    {
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/layout/fragment_wifi_mute.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/layout/fragment_wifi_mute.xml"
     }
 ]

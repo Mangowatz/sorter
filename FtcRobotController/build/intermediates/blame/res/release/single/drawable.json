@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_robotcontroller.png",
-        "source": "/Users/Aryeh/.android/build-cache/3f68f6ab975ef2fa2da521f1c01068a5f290051b/output/res/drawable/icon_robotcontroller.png"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/drawable/feedback_shape_orange.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/40ed5ac6e2964b819b657e1645afa62c/res/drawable/feedback_shape_orange.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/drawable/button_shape.xml",
-        "source": "/Users/Aryeh/.android/build-cache/832150e430f9ed4d0317622b043e4be446392ad9/output/res/drawable/button_shape.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_robotcontroller.png",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/3c3e819a45a4dff257b4650dcd859c9a/res/drawable/icon_robotcontroller.png"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/drawable/feedback_shape_orange.xml",
-        "source": "/Users/Aryeh/.android/build-cache/7b92b7e65b9c6270e38422be7f110032b1ad9de0/output/res/drawable/feedback_shape_orange.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/drawable/black_border.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/321a2c055411d919c65aa51a64c5f3ec/res/drawable/black_border.xml"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/drawable/black_border.xml",
-        "source": "/Users/Aryeh/.android/build-cache/cc842a63e9ca042d865c292cb1eb371a41beb1a4/output/res/drawable/black_border.xml"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_menu.png",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/3c3e819a45a4dff257b4650dcd859c9a/res/drawable/icon_menu.png"
     },
     {
-        "merged": "/Users/Aryeh/Downloads/ftc_app-master 2/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_menu.png",
-        "source": "/Users/Aryeh/.android/build-cache/3f68f6ab975ef2fa2da521f1c01068a5f290051b/output/res/drawable/icon_menu.png"
+        "merged": "/Users/Adminv2/Desktop/ftc_app-master/FtcRobotController/build/intermediates/res/merged/release/drawable/button_shape.xml",
+        "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/e55e802272ad9afe61b1a3497da9cc97/res/drawable/button_shape.xml"
     }
 ]

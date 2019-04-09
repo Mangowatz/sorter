@@ -40,8 +40,15 @@
     <uses-permission
         android:name="android.permission.WRITE_SETTINGS"
         android:required="true" />
+    <!--
+       "Allows applications to access serial ports via the SerialManager.". So, uncertain we need,
+       as we don't use the SerialManager.
+    -->
     <uses-permission
         android:name="android.permission.SERIAL_PORT"
+        android:required="true" /> <!-- see AppUtil.setTimeZone() -->
+    <uses-permission
+        android:name="android.permission.SET_TIME_ZONE"
         android:required="true" />
     <!--
   Note: we suspect that this (android.permission.WAKE_LOCK) is no
@@ -52,6 +59,7 @@
         android:name="android.permission.WAKE_LOCK"
         android:required="true" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <uses-feature android:name="android.hardware.usb.accessory" />
     <uses-feature android:glEsVersion="0x00020000" />
@@ -73,7 +81,6 @@
         android:name="org.firstinspires.ftc.robotcore.internal.system.RobotApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:exported="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
@@ -84,7 +91,8 @@
             android:name="org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
-            android:launchMode="singleTask" >
+            android:launchMode="singleTask"
+            android:screenOrientation="fullUser" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
 
@@ -97,6 +105,9 @@
             <meta-data
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
                 android:resource="@xml/device_filter" />
+            <meta-data
+                android:name="org.firstinspires.main.entry"
+                android:value="true" />
         </activity> <!-- The robot controller service in which most of the robot functionality is managed -->
         <service
             android:name="com.qualcomm.ftccommon.FtcRobotControllerService"
@@ -212,6 +223,10 @@
             android:label="@string/about_activity" >
         </activity>
         <activity
+            android:name="com.qualcomm.ftccommon.FtcAboutActivity"
+            android:label="@string/ftc_about_activity" >
+        </activity>
+        <activity
             android:name="com.qualcomm.ftccommon.configuration.EditSwapUsbDevices"
             android:configChanges="orientation|screenSize"
             android:label="@string/edit_swap_devices_activity"
@@ -281,6 +296,12 @@
             android:name="com.qualcomm.ftccommon.configuration.EditLynxUsbDeviceActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/edit_lynx_usb_device_activity"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.qualcomm.ftccommon.configuration.EditWebcamActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/edit_webcam_activity"
             android:windowSoftInputMode="stateHidden|adjustResize" >
         </activity>
         <activity
