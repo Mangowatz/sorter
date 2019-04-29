@@ -5,6 +5,7 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 
 /**
  * Created by Aryeh on 1/8/18.
+ *Adapted by Zack
  */
 
 public abstract class AutonomousAbstract extends LinearOpMode {
