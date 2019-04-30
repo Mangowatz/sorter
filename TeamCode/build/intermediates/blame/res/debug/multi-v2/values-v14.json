@@ -1,26 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Aryeh/Downloads/ftc_app-master 2/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/Users/Adminv2/sorter/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/Aryeh/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/e43ebc8053e43fa059ab9c2e5f6d1687/res/values-v14/values-v14.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "201"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Aryeh/Documents/ftc_app-master 2/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
-            "map": [
-                {
-                    "source": "/Users/Aryeh/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/e9cc814c284cd07f4aca6f0f7e1c6599/res/values-v14/values-v14.xml",
+                    "source": "/Users/Adminv2/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/b82e14abd565bfe64dea6da9521b3463/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
