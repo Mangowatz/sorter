@@ -27,7 +27,6 @@ public class AutoSorterDeltaS extends LinearOpMode {
         //move conveyor @ speed 1
         while(!(jimmyTheSensor.red() >= 5) && !(jimmyTheSensor.green() >= 5) && !(jimmyTheSensor.blue() >= 5)){
             getLegnth();
-
         }
         deposit();
 
@@ -42,11 +41,11 @@ public class AutoSorterDeltaS extends LinearOpMode {
     public void colorFeedback(){
 
         telemetry.addData("red: ", jimmyTheSensor.red());
-        telemetry.addData("blue: ", jimmyTheSensor.green());
+        telemetry.addData("green: ", jimmyTheSensor.green());
         telemetry.addData("blue: ", jimmyTheSensor.blue());
     }
 
-    protected void getLegnth(){ //this code continually runs when there is a block. distanceCount represents object distance in (mm). in theory  at least
+    protected void getLegnth(){ //this code continually runs when there is a block. distanceCount represents object distance in (mm). in theory,  at least
 
         //move conveyor a shtickle (~1mm)
         distanceCount++;
@@ -65,7 +64,7 @@ public class AutoSorterDeltaS extends LinearOpMode {
         } else if ((distanceCount <= block3 + 5) && (distanceCount >= block3 - 5)) {//block 3
             distanceCount = 0;
             telemetry.addData("Block chosen: ",3);
-            //peretz move this area quatro
+            //peretz move this area tres
         } else{
             telemetry.addData("ERROR",0);
         }

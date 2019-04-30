@@ -81,5 +81,3 @@ public class AutoSorterRGB extends LinearOpMode {
 
     }
 }
-
-
