@@ -38,6 +38,7 @@ public abstract class AutonomousAbstract extends LinearOpMode {
             //Knock down other team ball
             if (ballColor == getTeamColor()) {
 
+            }
         }
 
         public Color getColor(){
@@ -45,7 +46,8 @@ public abstract class AutonomousAbstract extends LinearOpMode {
             telemetry.addData("red: ", myColorSensor.red());
             telemetry.addData("blue: ", myColorSensor.blue());
 
-            if (myColorSensor.red() > myColorSensor.blue()) return Color.RED;
+            if (myColorSensor.red() > myColorSensor.blue())
+                return Color.RED;
             else return Color.BLUE;
 
 
@@ -54,4 +56,5 @@ public abstract class AutonomousAbstract extends LinearOpMode {
 
     }
 }
+
 
