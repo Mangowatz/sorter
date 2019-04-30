@@ -2,12 +2,13 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.ColorSensor;
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 
 /**
  * Created by Zack on 4/29/19.
  * Adapted from Aryeh's 2017-2018 FTC code
  */
-
+@Autonomous(name = "rgb", group = "Autonomous")
 public class AutoSorterRGB extends LinearOpMode {
 
     static final int block1R = 1;
@@ -24,15 +25,19 @@ public class AutoSorterRGB extends LinearOpMode {
     private ColorSensor jimmyTheSensor;
 
     @Override
-    public void runOpMode(){
+    public void runOpMode() {
 
         //Setup Hardware
         hardwareSetup();
         waitForStart();
-        colorFeedback();
-        while(!(jimmyTheSensor.red() >= 5) && !(jimmyTheSensor.green() >= 5) && !(jimmyTheSensor.blue() >= 5)){
-            deposit();
-            //move conveyor
+        while (opModeIsActive()) {
+            colorFeedback();
+
+            while (!(jimmyTheSensor.red() >= 20) && !(jimmyTheSensor.green() >= 20) && !(jimmyTheSensor.blue() >= 20)) {
+                deposit();
+                telemetry.update();
+                //move conveyor
+            }
         }
     }
 
@@ -43,8 +48,12 @@ public class AutoSorterRGB extends LinearOpMode {
     public void colorFeedback(){
 
         telemetry.addData("red: ", jimmyTheSensor.red());
-        telemetry.addData("blue: ", jimmyTheSensor.green());
+        telemetry.addData("green: ", jimmyTheSensor.green());
         telemetry.addData("blue: ", jimmyTheSensor.blue());
+        if((jimmyTheSensor.red() >= 20) && (jimmyTheSensor.green() >= 20) && (jimmyTheSensor.blue() >= 20)){
+            telemetry.addData("No object",0);
+        }
+        telemetry.update();
     }
     private void deposit(){
         if(/*color matches up with brick1*/

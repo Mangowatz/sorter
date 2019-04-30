@@ -1,5 +1,6 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 
@@ -7,6 +8,7 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
  * Created by Zack on 4/29/19.
  * Adapted from Aryeh's 2017-2018 FTC code
  */
+@Autonomous(name = "DeltaS", group = "Autonomous")
 
 public class AutoSorterDeltaS extends LinearOpMode {
 
@@ -23,13 +25,15 @@ public class AutoSorterDeltaS extends LinearOpMode {
         //Setup Hardware
         hardwareSetup();
         waitForStart();
-        colorFeedback();
-        //move conveyor @ speed 1
-        while(!(jimmyTheSensor.red() >= 5) && !(jimmyTheSensor.green() >= 5) && !(jimmyTheSensor.blue() >= 5)){
-            getLegnth();
+        while(opModeIsActive()) {
+            colorFeedback();
+            //move conveyor @ speed 1
+            while (!(jimmyTheSensor.red() >= 20) && !(jimmyTheSensor.green() >= 20) && !(jimmyTheSensor.blue() >= 20)) {
+                getLegnth();
+            }
+            deposit();
+            telemetry.update();
         }
-        deposit();
-
     }
 
     private void hardwareSetup(){
@@ -43,6 +47,10 @@ public class AutoSorterDeltaS extends LinearOpMode {
         telemetry.addData("red: ", jimmyTheSensor.red());
         telemetry.addData("green: ", jimmyTheSensor.green());
         telemetry.addData("blue: ", jimmyTheSensor.blue());
+        if((jimmyTheSensor.red() >= 20) && (jimmyTheSensor.green() >= 20) && (jimmyTheSensor.blue() >= 20)){
+            telemetry.addData("No object",0);
+        }
+        telemetry.update();
     }
 
     protected void getLegnth(){ //this code continually runs when there is a block. distanceCount represents object distance in (mm). in theory,  at least
@@ -50,6 +58,7 @@ public class AutoSorterDeltaS extends LinearOpMode {
         //move conveyor a shtickle (~1mm)
         distanceCount++;
         telemetry.addData("Measuring Distance: ",distanceCount);
+        telemetry.update();
 
     }
     private void deposit() { //thank you for distance; now it will go into box

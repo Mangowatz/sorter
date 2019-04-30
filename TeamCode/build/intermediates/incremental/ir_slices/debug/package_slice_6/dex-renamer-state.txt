@@ -1,0 +1,4 @@
+#Tue Apr 30 11:32:36 EDT 2019
+base.0=/Users/Adminv2/sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex
