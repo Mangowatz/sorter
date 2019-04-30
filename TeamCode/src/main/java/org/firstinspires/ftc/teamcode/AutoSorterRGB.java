@@ -51,7 +51,7 @@ public class AutoSorterRGB extends LinearOpMode {
         telemetry.addData("green: ", jimmyTheSensor.green());
         telemetry.addData("blue: ", jimmyTheSensor.blue());
         if((jimmyTheSensor.red() >= 20) && (jimmyTheSensor.green() >= 20) && (jimmyTheSensor.blue() >= 20)){
-            telemetry.addData("No object",0);
+            telemetry.addData("No object",0);//hi
         }
         telemetry.update();
     }
